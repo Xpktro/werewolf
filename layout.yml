@@ -1,0 +1,27 @@
+bleed:
+  x: 1mm
+  y: 1mm
+  width: 8cm
+  height: 8cm
+
+border:
+  x: 5mm
+  y: 5mm
+  width: 7.2cm
+  height: 7.2cm
+
+title:
+  x: 8mm
+  y: 8mm
+  width: 6.6cm
+  height: 1.9cm
+  align: center
+  valign: middle
+  hint: black
+  font_size: 1cm
+
+descriptionbox:
+  x: 8mm
+  y: 3.1cm
+  width: 6.6cm
+  height: 4.3cm
