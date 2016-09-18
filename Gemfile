@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'squib'
+gem 'squib', '0.11.0'

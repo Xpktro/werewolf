@@ -5,23 +5,74 @@ bleed:
   height: 8cm
 
 border:
-  x: 5mm
-  y: 5mm
-  width: 7.2cm
-  height: 7.2cm
+  extends: bleed
+  x: += 4mm
+  y: += 4mm
+  width: -= 8mm
+  height: -= 8mm
+
+titlebox:
+  extends: border
+  x: += 3mm
+  y: += 3mm
+  width: 6.6cm
+  height: 1.2cm
 
 title:
-  x: 8mm
-  y: 8mm
-  width: 6.6cm
-  height: 1.9cm
+  extends: titlebox
   align: center
   valign: middle
-  hint: black
-  font_size: 1cm
+  font: Georgia 60
 
 descriptionbox:
-  x: 8mm
-  y: 3.1cm
-  width: 6.6cm
-  height: 4.3cm
+  extends: titlebox
+  y: += 1.5cm # title's 1.2 + 3mm
+  height: 5.1cm
+
+description:
+  extends: descriptionbox
+  x: += 2mm
+  y: += 2mm
+  width: -= 4mm
+  height: -= 4mm
+  font: Georgia 24
+  justify: true
+
+symbol:
+  extends: descriptionbox
+  x: += 8mm
+  y: += .5mm
+  width: 5cm
+  height: 5cm
+
+symbol_v:
+  extends: symbol
+  file: symbols/village.svg
+
+symbol_w:
+  extends: symbol
+  file: symbols/wolf.svg
+
+symbol_s:
+  extends: symbol
+  file: symbols/serial.svg
+
+symbol_l:
+  extends: symbol
+  file: symbols/lover.svg
+
+symbol_b:
+  extends: symbol
+  file: symbols/boy.svg
+
+symbol_c:
+  extends: symbol
+  file: symbols/cupid.svg
+
+symbol_m:
+  extends: symbol
+  file: symbols/medic.svg
+
+symbol_p:
+  extends: symbol
+  file: symbols/witch.svg

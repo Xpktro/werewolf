@@ -4,7 +4,7 @@
 # Default: 300
 #dpi: 72
 
-#antialias: best #recommended. Only about 10% slower than fast
+antialias: best #recommended. Only about 10% slower than fast
 #antialias: default # set the anti-aliasing algorithm. default defers to the underlying graphics device. See http://www.cairographics.org/manual/cairo-cairo-t.html#cairo-antialias-t
 
 # Text hints are used to show the boundaries of text boxes.
@@ -12,7 +12,7 @@
 #text_hint: '#F00'
 
 # Show progress bars on the command line for potentially long-running operations
-#progress_bars: true
+# progress_bars: true
 
 #Enable some custom colors that can be used in any color
 #custom_colors:
